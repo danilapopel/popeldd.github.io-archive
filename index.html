@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html id="top">
+<!-- level 1: START HEAD -->
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/master.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/mobile.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/individual/index.css" />
+
+    <!-- jquery-ui css -->
+    <!-- *This is a test, still learning the functionality. So I probably will remove this at some point* -->
+    <link rel="stylesheet" type="text/css" href="assets/jquery-ui/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="assets/jquery-ui/jquery-ui.structure.css" />
+    <link rel="stylesheet" type="text/css" href="assets/jquery-ui/jquery-ui.theme.css" />
+    <!-- -->
+
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/jquery-ui/jquery-ui.js"></script>
+    <script type="text/javascript" src="assets/js/master.js"></script>
+    <title>Danila P. Portfolio</title>
+
+    <!-- google fonts <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap" rel="stylesheet">
+    -->
+  </head>
+
+<!-- level 1: START BODY -->
+  <body>
+    <!-- level 2: HEADER -->
+    <header>
+      <!-- level 3: HEADER TITLE -->
+      <a href="index.html#top" id="header-title">Danila P.</a>
+      <!-- level 3: NAV -->
+      <a href="javascript:void(0);" id="m-nav">
+        <div id="m-nav-line1"></div>
+        <div id="m-nav-line2"></div>
+        <div id="m-nav-line3"></div>
+      </a>
+      <nav>
+        <ul id="nav-ul">
+          <div class="dropdown-arrow"></div>
+          <!-- Home --><li><a href="index.html" name="Home" alt="Home" id="nav-home">Home</a></li>
+          <!-- More --><li><a href="javascript:void(0);" name="More" alt="More" id="nav-more">More</a>
+                        <ul id="more-ul">
+                          <div class="dropdown-arrow"></div>
+                          <li><a href="projects.html" name="Projects" alt="Projects" id="more-projects">Projects</a></li>
+                          <li><a href="photos.html" name="Photos" alt="Photos" id="">Photos</a></li>
+                        </ul>
+                      </li>
+          <!-- Github --><li><a href="" name="Github" alt="Github" id="nav-github">Github</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- level 2: MAIN -->
+    <main>
+      <div id="main-title">
+        <div id="portfolio-image"></div>
+        <div id="main-social">
+          <a class="social-media social-gmail" href="mailto:danilapopel@gmail.com" name="Gmail" alt="Gmail"></a>
+          <a class="social-media social-youtube" href="javascript:void(0);" name="YouTube" alt="YouTube"></a>
+          <a class="social-media social-github" href="javascript:void(0);" name="GitHub" alt="GitHub"></a>
+          <a class="social-media social-instagram" href="javascript:void(0);" name="Instagram" alt="Instagram"></a>
+          <a class="social-media social-snapchat" href="assets/images/social/snapchat.png" name="Snapchat" alt="Snapchat"></a>
+        </div><!-- #footer-snapchat is linked, since it is bigger, pull out your snapchat and add (easy) -->
+      </div>
+
+      <!-- About Me --><article id="article-about">
+        <a href="javascript:void(0);" class="article-title">About Me</a>
+        <div class="article-content">
+          <aside>Text</aside>
+        </div>
+      </article>
+
+      <!-- Experience --><article class="article-hidden" id="article-experience">
+        <a href="javascript:void(0);" class="article-title">Experience</a>
+        <div class="article-content">
+          <aside id="article-content-left">
+            <h1>Jobs :</h1>
+            <ul>
+              <li>
+                <h2><a href="javascript:void(0);">YaYa's Cookbook</a></h2>
+                <p class="article-expanded">Sushi Chef and back of house support.</p>
+              </li>
+              <li>
+                <h2><a href="javascript:void(0);">Red Salt Chophouse & Sushi</a></h2>
+                <p>Sushi Chef</p>
+              </li>
+              <li>
+                <h2><a href="javascript:void(0);">Osaka</a></h2>
+                <p>Sushi Chef</p>
+              </li>
+              <li>
+                <h2><a href="javascript:void(0);">Kona Grill</a></h2>
+                <p>Sushi Chef</p>
+              </li>
+              <li>
+                <h2><a href="javascript:void(0);">Mom's Siam 2</a></h2>
+                <p>Sushi Chef and back of house support.
+                  <br/>
+                </p>
+              </li>
+              <li>
+                <h2><a href="javascript:void(0);">YaYa's Cookbook</a></h2>
+                <p>Sushi Chef and back of house support.</p>
+              </li>
+            </ul>
+          </aside>
+          <div id="article-content-divider"></div>
+          <aside id="article-content-right">
+            <h1>Certifications :</h1>
+            <ul>
+              <li>
+                <h2><a href="javascript:void(0);">MTA: Introduction to Programming Using Python</a></h2>
+                <p class="article-expanded">Acquired: 2019</p>
+              </li>
+              <li class="article-expanded">
+                <h2><a href="javascript:void(0);">CIW: Site Development Associate</a></h2>
+                <p class="article-expanded">Acquired: 2018</p>
+              </li>
+              <li class="article-expanded">
+                <h2><a href="javascript:void(0);">Cengage: Microsoft Word & Powerpoint 2013</a></h2>
+                <p class="article-expanded">Acquired: 2016</p>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </article>
+    </main>
+
+    <!-- level 2: FOOTER -->
+    <footer>
+      <p><a href="javascript:void(0);" name="Documentation" alt="Documentation" id="footer-documentation">Documentation</a>&copy;2019 Danila Popel</p>
+    </footer>
+  </body>
+
+</html>

@@ -1,0 +1,125 @@
+@media only screen and (man-width: 1000px) {
+  nav {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header-scroll nav {
+    margin-left: 0; /* "header-scroll jump bug" (temporary workaround) */
+  }
+  .header-scroll #more-ul {
+    width: 150px;
+  }
+  .header-scroll #more-ul a, .header-scroll #more-ul a:visited {
+    font-size: 18px;
+  }
+
+  #m-nav {
+    display: block;
+  }
+  nav {
+    display: none;
+    margin-left: 1000%; /* "header-scroll jump bug" (temporary workaround) */
+  }
+  #nav-ul {
+    padding: 0;
+    right: 8%;
+    top: 20px;
+    position: absolute;
+    width: 150px;
+    background: rgba(0,0,0,0.6);
+    transition: 0.5s;
+  }
+  #nav-ul .dropdown-arrow {
+    display: block;
+    top: -10px;
+    left: 44%;
+  }
+    /* level 6: MORE UL LI */
+    #nav-ul li {
+      margin: auto;
+      width: 100%;
+    }
+      /* level 7: MORE UL LI A */
+      #nav-ul a, #nav-ul a:visited {
+        letter-spacing: 1.5px;
+        text-transform: none;
+        font-size: 18px;
+        text-shadow: none;
+        display: block;
+      }
+      #nav-ul a:hover, #nav-ul a:active {
+        color: #212121;
+        text-shadow: none;
+        background-color: rgba(255,255,255,0.8);
+      }
+    #nav-ul li {
+      display: block;
+    }
+
+    /* NAV MORE */
+    #nav-more.dropdown-active {
+      background-color: rgba(255,255,255,0.8);
+      color: #000;
+    }
+    #more-ul {
+      display: none;
+      padding: 0;
+      margin: -65px 0 0 -108%;
+      position: absolute;
+      width: 150px;
+      background: rgba(0,0,0,0.6);
+      transition: 0.5s;
+    }
+    #more-ul .dropdown-arrow {
+      top: 40%;
+      left: 100%;
+
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid rgba(0,0,0,0.6);
+    }
+      /* level 6: MORE UL LI */
+      #more-ul li {
+        margin: auto;
+        width: 100%;
+      }
+        /* level 7: MORE UL LI A */
+        #more-ul a, #more-ul a:visited {
+          letter-spacing: 1.5px;
+          text-transform: none;
+          font-size: 18px;
+          text-shadow: none;
+          display: block;
+        }
+        #more-ul a:hover, #more-ul a:active {
+          color: #212121;
+          text-shadow: none;
+          background-color: rgba(255,255,255,0.8);
+        }
+}
+@media only screen and (max-width: 700px) {
+  #nav-ul {
+    right: 5%;
+  }
+
+  #main-title {
+    top: -75px;
+  }
+    #portfolio-image {
+      height: 150px;
+      width: 150px;
+    }
+    #main-social {
+      top: 80px;
+    }
+      #main-social a {
+        margin: 15px 5px;
+        width: 20px;
+        height: 20px;
+      }
+  .article-title {
+    top: -80px;
+  }
+}
